@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
