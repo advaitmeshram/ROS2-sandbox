@@ -1,7 +1,6 @@
 # Basic Linux Commands (for Robotics)
 
 Here are some essential Linux commands I’m learning.  
-(WIP = Work In Progress — I’ll keep updating as I go.)
 
 ## Navigation
 - `pwd` → print working directory (where am I now?)
