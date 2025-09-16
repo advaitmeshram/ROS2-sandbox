@@ -1,38 +1,37 @@
-# Basic Linux Commands (for Robotics)
-
-Here are some essential Linux commands I’m learning.  
+# Linux Commands Notes
 
 ## Navigation
-- `pwd` → print working directory (where am I now?)
-- `ls` → list files in current folder
-- `cd foldername/` → change directory
-- `cd ..` → go up one level
+- `pwd` → print current working directory
+- `ls` → list files and folders
+- `cd <dir>` → change directory
 
-## File and Folder Management
-- `mkdir myfolder` → make a new folder
-- `touch myfile.txt` → create a new empty file
-- `cp file1 file2` → copy file1 to file2
-- `mv file1 file2` → move/rename file1 to file2
-- `rm file.txt` → delete a file
-- `rm -r foldername` → delete a folder (careful!)
+## File & Folder Management
+- `touch <file>` → create a file
+- `mkdir <dir>` → create a folder
+- `cp <src> <dest>` → copy file
+- `mv <src> <dest>` → move or rename file
+- `rm <file>` → delete a file
+- `rm -r <dir>` → delete a folder and its contents
 
-## Viewing and Editing
-- `cat file.txt` → show the file contents
-- `less file.txt` → scroll through file contents
-- `nano file.txt` → edit file with nano editor
-- `vi file.txt` → edit file with vi editor
+## Viewing & Editing
+- `cat <file>` → print file contents
+- `less <file>` → view file contents, scrollable
+- `nano <file>` → open editor (simple)
+- `vi <file>` → open vi editor (advanced)
 
-## Permissions
-- `chmod +x script.sh` → make script executable
-- `ls -l` → show file permissions
+## Permissions (will expand later)
+- `ls -l` → list files with permissions
+- `chmod <mode> <file>` → change file permissions
+- `chown <user>:<group> <file>` → change file owner
 
-## Processes
-- `ps` → show running processes
-- `top` → real-time processes and CPU usage
-- `kill <PID>` → stop a process
+## Processes (will expand later)
+- `ps` → list running processes
+- `top` → monitor processes
+- `kill <pid>` → stop a process
 
 ---
 
-✍️ Notes:
-- Linux is case-sensitive (`File.txt` ≠ `file.txt`).
-- `rm -r` is dangerous — always double-check before deleting!
+### My Notes
+- Linux Essentials course repo is cloned into the workspace to practice commands.
+- These commands form the foundation for all future robotics development.
+
